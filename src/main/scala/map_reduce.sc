@@ -12,4 +12,3 @@ def sum(f: Int => Int, a: Int, b:Int): Int = {
 def product(f: Int => Int, a: Int, b: Int): Int = {
   mapReduce(f, (x:Int, y:Int)=>x*y, a,b,1)
 }
-
